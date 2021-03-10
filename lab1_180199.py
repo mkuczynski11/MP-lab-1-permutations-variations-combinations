@@ -14,5 +14,8 @@ class Solution():
 
 
 a = Solution()
-permutations,l = a.permute(4)
-print(f"{permutations} length:{l}")
+n = 15
+permutations,l = a.permute(n)
+for permutation in permutations:
+    print(permutation)
+print(f"n={n} liczba permutacji: {l}")
